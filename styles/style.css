@@ -1,0 +1,399 @@
+.header {
+  width: 1440px;
+  padding-top: 92px;
+}
+
+.header__content {
+  width: 1340px;
+  height: 109px;
+  margin: 0 51px 92px 49px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.header__menu {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  list-style: circle;
+  justify-self: end;
+}
+
+.header__navigation {
+  
+}
+
+.header__nav-main {
+  text-decoration: none;
+}
+
+.header__nav-lots {
+  margin-left: 35px;
+}
+
+.header__nav-about {
+  margin-left: 31px;
+}
+
+.header__logo {
+  justify-self: center;
+
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.header__contacts {
+  justify-self: center;
+}
+
+.contacts {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px; /* 135% */
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/*end of header*/
+
+/*start of main*/
+  /*start of cover*/
+
+.cover {
+  position: relative;
+  width: 1440px;
+  height: 757px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cover__title-left {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 115px */
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  margin-top: 165px;
+}
+
+.cover__title-left-no {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 60px;
+  text-transform: uppercase;
+}
+
+.cover__title-center {
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 100px */
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.cover__title-center-be {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 60px;
+  text-transform: uppercase;
+}
+
+.cover__title-right {
+  color: #FFF;
+  text-align: right;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 100px */
+  letter-spacing: 60px;
+  text-transform: uppercase;  
+  margin-left: 975px;
+}
+
+.cover__title-right-ad {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.cover__title-right-o {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.cover__text {
+  /*display: flex;*/
+  margin-top: 147px;
+  margin-left: 422px;
+  margin-right: 50px;
+  
+}
+
+.cover__text-row {
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 127.273% */
+  text-transform: uppercase;
+}
+
+.cover__text-row-spacing {
+  word-spacing: 18px;
+}
+
+
+.cover__text-button {
+  border: solid 1px #FFF;
+  width: 193px;
+  height: 28px;
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 12px 32px;
+}
+
+/* end of cover*/
+
+/* start of lots */
+
+.lots {
+  width: 1440px;
+  margin-top: 180px; 
+}
+
+.lots__title {
+  margin-left: 90px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.card__lot-text-title {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  margin: 50px 40px 0;
+  width: 350px;
+}
+
+.card__lot-text-text {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0 40px 50px 40px;
+  width: 350px;
+}
+
+.cards__lots {
+  margin-left: 50px;
+  display: flex;
+  gap: 25px;
+}
+
+.card__lot {
+  width: 430px;
+  height: 450px;
+  margin-top: 27px;
+}
+
+.card__lot1 {
+  background: rgba(0, 0, 0, 0.60);
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+}
+
+.card__lot2 {
+  background-image: url("../images//card-lot-02.jpg");
+  background-size: cover;
+}
+
+.card__lot3 {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+}
+
+.card__lot1 h2 {
+  margin-top: 202px;
+}
+
+.card__lot2 h2 {
+  margin-top: 30px;
+}
+
+.card__lot3 h2 {
+  margin-top: 84px;
+}
+
+.cards__lots-link {
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+/*end of cover */
+
+/*start of about */
+
+.about {
+  width: 1440px;
+  margin: 181px 50px 0;
+  /*margin-top: 181px;
+  margin-left: 50px;*/
+  display: flex;
+}
+
+.about__card-logo {
+  width: 240px;
+  height: 240px;
+  border: solid 1px #000;
+  border-radius: 120px;
+  background-color: #000;
+  margin-left: 95px;
+}
+
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  background-image: url("../images/logo-white.svg");
+  background-size: contain;
+  margin: 63px 46px;
+}
+
+.about__text {
+  width: 885px;
+  height: 335px;
+  display: inline-flex;
+  height: 388px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+
+.about__text-title {
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about__text-text {
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about__tetx-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*end of about*/
+
+/*start of footer*/
+
+.footer {
+  width: 1440px;
+  display: flex;
+  margin-top: 180px;
+  margin-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+
+.footer__logo-social {
+  width: 240px;
+  height: 48px;
+  display: flex;
+}
+
+.header__menu-footer {
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+
+.header__nav-link {
+  text-decoration: underline;
+}
