@@ -22,7 +22,7 @@
         <div class="header__logo">
           <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип">
         </div>
-        <div class="hedader__contacts">
+        <div class="header__contacts">
           <address class="contacts">
             <a class="phone" href="tel:+9 999 555 5555">+9 999 555 5555</a>
             <a class="mailbox" href="mailto: info@sobaka.ge">info@sobaka.ge</a>
@@ -32,23 +32,25 @@
       </section>
     </header>
     <main>
-      <section class="cover">
-        <div class="cover__title">
-          <p class="cover__title-left"><span class="cover__title-left-o">о</span><span class="cover__title-left-no">но</span></p>
-          <p class="cover__title-center"><span class="cover__title-center-te">те</span><span class="cover__title-center-be">бе</span></p>
-          <p class="cover__title-right"><span class="cover__title-right-n">н</span><span class="cover__title-right-ad">ад</span><span class="cover__title-right-o">о</span></p>
-        </div>
-        <div class="cover__text">
-          <p class="cover__text-row"><span class="cover__text-row-spacing">Аукцион    вещей,    в    которые    никто    не     верил</span><span class="cover__text-button">Сделать ставку</span></p>
+      <section class="overlay">
+        <div class="cover">
+          <div class="cover__title">
+            <h1 class="cover__title-left"><span class="cover__title-left-o">о</span><span class="cover__title-left-no">но</span></h1>
+            <h1 class="cover__title-center"><span class="cover__title-center-t">т</span><span class="cover__title-center-e">е</span><span class="cover__title-center-b">б</span><span class="cover__title-center-e1">е</span></h1>
+            <h1 class="cover__title-right"><span class="cover__title-right-n">н</span><span class="cover__title-right-ad">ад</span><span class="cover__title-right-o">о</span></h1>
+          </div>
+          <div class="cover__text">
+            <h2 class="cover__text-row"><span class="cover__text-row-spacing">Аукцион    вещей,    в    которые    никто    не     верил</span><span class="cover__text-button">Сделать ставку</span></h2>
+          </div>
         </div>
       </section>  
       <section class="lots">
-        <p class="lots__title">лоты</p>
+        <h3 class="lots__title">лоты</h3>
         <div class="cards__lots">
           <div class="card__lot card__lot1">
             <article class="card__lot-text">
               <h1 class="card__lot-text-title">
-                Фильм режиссёра, который  бросил киношколу
+                <a href="#">Фильм режиссёра, который  бросил киношколу</a>
               </h1>
               <h2 class="card__lot-text-text">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -58,7 +60,7 @@
           <div  class="card__lot card__lot2">
             <article class="card__lot-text">
               <h1 class="card__lot-text-title">
-                Книга, где описан один скучный день из жизни рекламного агента
+                <a href="#">Книга, где описан один скучный день из жизни рекламного агента</a>
               </h1>
               <h2 class="card__lot-text-text ">
                 Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский.
@@ -70,7 +72,7 @@
           <div class="card__lot card__lot3">
             <article class="card__lot-text">
               <h1 class="card__lot-text-title">
-                Картина, которую повторит даже 5-летний сын маминой подруги
+                <a href="#">Картина, которую повторит даже 5-летний сын маминой подруги</a>
               </h1>
               <h2 class="card__lot-text-text">
                 Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку.
@@ -85,15 +87,15 @@
       </section>
       <section class="about">
         <div class="about__card-logo">
-          <div class="about__logo-image">
-
+          <div>
+            <img class="about__logo-image" src="./images/logo-white.svg" alt="">
           </div>
         </div>
         <div class="about__text">
-          <div class="about__text-title">
-            <h4>об аукционе</h4>
+          <div>
+            <h4 class="about__text-title">об аукционе</h4>
           </div>
-          <div class="about__tetx-articles">
+          <div class="about__text-articles">
             <h5 class="about__text-text"><span>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
              Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
               которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</span></h5>
@@ -115,15 +117,15 @@
       </div>
       <nav class="footer__navigation">
         <ul class="header__menu header__menu-footer">
-          <li class="header__nav-main">главная</li>
-          <li class="header__nav-lots header__nav-link">посмотреть лоты</li>
-          <li class="header__nav-about header__nav-link">об аукционе</li>
+          <li class="header__nav-main"><a class="footer__menu-link footer__menu-link-active" href="#">главная</a></li>
+          <li class="header__nav-lots header__nav-link"><a class="footer__menu-link" href="#">посмотреть лоты</a></li>
+          <li class="header__nav-about header__nav-link"><a class="footer__menu-link" href="#">об аукционе</a></li>
         </ul>
       </nav>
       <div class="footer__logo-social">
-        <img src="./images/yt.svg" alt="">
-        <img src="./images/vk.svg" alt="">
-        <img src="./images/pinterest.svg" alt="">
+        <img class="footer__logo-social-yt footer__logo-image" src="./images/yt.svg" alt="">
+        <img class="footer__logo-social-vk footer__logo-image" src="./images/vk.svg" alt="">
+        <img class="footer__logo-social-pt footer__logo-image" src="./images/pinterest.svg" alt="">
       </div>
     </footer>
   </body>
