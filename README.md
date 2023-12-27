@@ -1,1 +1,1 @@
-https://github.com/gluk86/onotebenado
+git@github.com:gluk86/onotebenado.git
